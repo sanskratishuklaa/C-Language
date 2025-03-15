@@ -3,12 +3,12 @@
 int main()
 {
 
-    int counter = 0;
+    int i = 0;
 
-    while (counter <= 10)
+    while (i <= 10)
     {
-        printf("counter is :%d\n", counter);
+        printf("%d\n", i);
 
-        counter++;
+        i++;
     }
 }

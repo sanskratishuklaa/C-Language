@@ -1,13 +1,14 @@
 #include <stdio.h>
 int main()
-{
-
-    int prime = 11;
+{   
+    int num;
+    printf("Enter a number to check prime or not: ",num);
+    scanf("%d",&num);
     int isprime = 0;
-    int counter = 8;
-    while (counter < prime)
+    int counter = 2;
+    while (counter < num)
     {
-        if (prime % counter == 0)
+        if (num % counter == 0)
         {
             isprime++;
         }
